@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(270, 20%, 96%);
+    justify-content: center;
+    align-items: center;
+}
+
+.degradadoIzquierdo{
+    width: 177.5px;
+    height: 550px;
+    background: linear-gradient(to top left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 0 0 190px 0;
+}
+
+.contenedorTelefono{
+    width: 70%;
+    z-index: 20;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 50px 0;
+    box-shadow: 6px 10px 25px gainsboro;
+}
+
+.contenidoTelefono{
+    width: 92%;
+    background-color: hsl(270, 20%, 96%);
+    margin: 12px 0;
+    border-radius: 20px;
+}
+
+.divHeaderBlanco{
+    width: 40%;
+    height: 20px;
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);    
+    border-radius: 0 0 18px 18px;
+    z-index: 45;
+    top: 9%;
+    left: 30%;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 18px 18px 6px 6px;
+    height: 60px;
+    padding-bottom: 12px;
+    box-shadow: 6px 10px 25px gainsboro;
+}
+
+.encabezado p{
+    color:hsl(0, 0%, 100%);
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.titulos h1, h2{
+    font-size: 10px;
+    margin-right: 80px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.5;
+}
+
+.titulos h2{
+    font-size: 8px;
+    color:hsl(293, 74%, 85%);
+    font-weight: normal;
+}
+
+.puntos img{
+    margin-right: 10px;
+    width: 3px;
+    height: 10px;
+}
+
+.encabezado>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.chat{
+    width: 140px;
+    background-color: hsla(274, 10%, 29%, 0.082);
+    color: hsl(293, 51%, 62%);
+    border-radius: 10px;
+    margin: 14px;
+    padding: 8px;
+    font-size: 9px;
+    line-height: 1.5;
+}
+
+.perros{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.perros img{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    border-radius: 8px;
+}
+
+.chatBlanco{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 14px 10px 0;
+}
+
+.chatB{
+    display: flex;
+    width: 150px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(293, 37%, 38%);
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 10px;
+    box-shadow: 6px 1px 8px gainsboro;
+
+}
+
+.conversacion2Blanco{
+    width: 100px;
+    margin: 14px 0 14px 0;
+}
+
+.treintaMinutos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 9px;
+    font-weight: normal;
+    width: 75%;
+    background: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: 10px 10px 10px 4px;
+    padding: 10px 0;
+    margin-left: 14px;
+    color:hsl(293, 74%, 85%);
+}
+
+.precio{
+    margin-left: 48px;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.minutosPrecio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unaHora{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 9px;
+    font-weight: normal;
+    width: 75%;
+    background: linear-gradient(to left, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: 10px 10px 10px 4px;
+    padding: 10px 0;
+    margin: 14px 0 0 14px;
+    color:hsl(293, 74%, 85%);
+}
+
+.unaHoraPrecio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circulo{
+    width: 16px;
+    height: 16px;
+    border: 1px solid hsl(289, 100%, 72%);
+    border-radius: 50%;
+}
+
+.botonTarea{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    width: 95%;
+    resize: none;
+    border-radius: 40px;
+    margin: 35px 0; 
+    padding: 8px 0 0 10px;
+    border: none;
+    font-size: 10px;
+
+}
+
+.circuloTarea{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color:hsl(271, 36%, 24%);
+    border-radius: 50%;
+    margin: 36px 0 0 -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circuloTarea span{
+    color: hsl(0, 0%, 100%);
+    z-index: 25;
+    font-weight: 700;
+}
+
+.textos{
+    width: 100%;
+    max-width: 60%;
+    padding: 0 32px;
+    line-height: 1.5;
+    font-size: 11px;
+    text-align: center;
+}
+
+.textos h1{
+    font-size: 28px;
+    margin-bottom: 18px;
+    color: hsl(271, 36%, 24%);
+    
+}
+
+.textos p{
+    margin-bottom: 45px;
+    color: hsl(285, 2%, 48%);
+    
+}
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (min-width: 769px){
+
+    .contenedor{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 88px;
+        height: 85vh;
+        
+    }
+
+    .degradadoIzquierdo{
+        width: 350px;
+        height: 78vh;
+        top: 14%;
+        left: 0%;
+        border-radius: 0 0 200px 140px;
+        background: linear-gradient(to top right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    }
+
+    .contenedorTelefono{
+        width: 18%;
+        max-width: 260px;
+        height: 75vh;
+        margin: 70px 0;
+        min-width: 260px;
+    }
+
+    .contenidoTelefono{
+        height: 72vh;
+        max-width: 90%;
+        min-width: 89.5%;
+    }
+
+    .encabezado{
+        height: 45px;
+        padding-bottom: 7px;
+        max-width: 233px;
+        min-width: 233px;
+        align-items: flex-end;
+    }
+
+    .divHeaderBlanco{
+        display: flex;
+        width: 150px;
+        max-width: 150px;
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        background-color: hsla(0, 0%, 100%, 0);
+    }
+
+    .headerBlanco{
+        width: 100%;
+        height: 17px;
+        position: absolute;
+        background-color: hsl(0, 0%, 100%);   
+        border-radius: 0 0 18px 18px;
+        z-index: 45;
+        min-width: 150px;
+        max-width: 150px;
+        right: 34%;
+    }
+
+    .chat{
+        width: 140px;
+        margin: 12px;
+        padding: 6px;
+        line-height: 1.2;
+    }
+
+    .perros img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .chatBlanco{
+        margin: 10px 10px 0;
+    }
+
+    .chatB{
+        padding: 7px;
+    }
+
+    .conversacion1Blanco{
+        max-width: 150px;
+        min-width: 150px;
+    }
+
+    .conversacion2Blanco{
+        margin: 10px 0 8px 0;
+        max-width: 100px;
+        min-width: 100px;
+    }
+
+    .treintaMinutos, .unaHora{
+        padding: 6px 0;
+        min-width: 175.5px;
+        max-width: 175.5px;
+    }
+
+    .unaHora{
+        margin: 6px 0 0 14px;
+
+    }
+
+    .minutosPrecio{
+        min-width: 134px;
+        max-width: 134px;
+    }
+
+    .unaHoraPrecio{
+        min-width: 118px;
+        max-width: 118px;
+    }
+
+    textarea{
+        width: 94%;
+        margin: 8px 0; 
+        padding: 8px 0 0 12px;
+        height: 26px;
+    }
+
+    .botonTarea{
+        min-width: 234px;
+        max-width: 234px;
+    }
+
+    .circuloTarea{
+        width: 24px;
+        height: 24px;
+        margin: 8px 0 0 -26px;
+        min-width: 24px;
+        max-width: 24px;
+    }
+
+    .textos{
+        width: 30%;
+        text-align: left;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+
+    .contenedorDegradadoD{
+        width: 20%;
+        display: flex;
+        z-index: 50;
+        position: absolute;
+        bottom: 1%;
+        right: 0%;
+    }
+
+    .degradadoDerecho{
+        width: 94%;
+        height: 78vh;
+        background-color: hsla(289, 64%, 85%, 0.096);
+        border-radius: 190px 14px 0 0;    
+    }
+
+}
+
+
